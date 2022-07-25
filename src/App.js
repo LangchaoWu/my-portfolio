@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Spline from '@splinetool/react-spline';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <div className='spline-container'>
+          <div className='nav-bar'>
+              <div className='nav-text'>Home</div>
+              <div className='nav-text'>About</div>
+              <div className='nav-text'>Projects</div>
+              <div className='nav-text'>Contact</div>
+
+          </div>
+
+          <div className='Welcome-text'>
+
+          </div>
+
+          <Spline  className="spline" scene="https://prod.spline.design/f4ehgKXIsBCo8OSF/scene.splinecode" />
+        </div>
+       
+     
+      
+     
+     
     </div>
   );
 }
