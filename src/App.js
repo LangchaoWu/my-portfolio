@@ -182,7 +182,7 @@ function App() {
               <div className='detail'>
                   <div className='Technologies'>Technologies</div>
                   <p className='Technologies-detail'>React Js, Javascript, custom CSS</p>
-                  <a className='github-logo'><img src={github}/></a>
+                  <a href='https://github.com/LangchaoWu/phase-1-project' target="_blank" className='github-logo'><img src={github}/></a>
               </div>
               
           </div>
@@ -197,7 +197,7 @@ function App() {
               <div className='detail'>
                   <div className='Technologies'>Technologies</div>
                   <p className='Technologies-detail'>React Js, Ruby on Rails, custom CSS</p>
-                  <a className='github-logo'><img src={github}/></a>
+                  <a href='https://github.com/LangchaoWu/Phase-4-project-GameShop' target="_blank" className='github-logo'><img src={github}/></a>
               </div>
               
           </div>
@@ -212,7 +212,7 @@ function App() {
               <div className='detail'>
                   <div className='Technologies'>Technologies</div>
                   <p className='Technologies-detail'>React Js, Ruby on Rails, Bootstrap</p>
-                  <a className='github-logo'><img src={github}/></a>
+                  <a href='https://github.com/LangchaoWu/GoldPanningMarket-react-rails-project' target="_blank" className='github-logo'><img src={github}/></a>
               </div>
               
           </div>
@@ -224,6 +224,31 @@ function App() {
 
       </div>
         
+      
+      <div id='contact' className='contact-container'>
+          <h1>Contact me</h1>
+          <form>
+            <div className='form-content'>
+              <div className='input-field'>
+                <input type="text" className='form-name' placeholder='Name'/>
+                <input type="text" className='form-email' placeholder='Email Address'/>
+              </div>
+              
+              <div className='input-field'>
+               <input type="text" className='form-subject' placeholder='Subject'/>
+              </div>
+              <div className='input-field'>
+                <textarea className='form-message' placeholder='Message'/>
+              </div>
+              <div className='input-field'>
+               <input type="submit" className='form-submit' value='Send Message'/>
+              </div>
+
+              </div>
+
+
+          </form>
+      </div>
 
       
      
