@@ -27,8 +27,8 @@ function App() {
           <div className='nav-bar'>
               <a href="#home" className='nav-text'>Home</a>
               <a href="#about" className='nav-text'>About</a>
-              <div className='nav-text'>Projects</div>
-              <div className='nav-text'>Contact</div>
+              <a href="#project" className='nav-text'>Projects</a>
+              <a href="#contact" className='nav-text'>Contact</a>
 
           </div>
 
@@ -105,10 +105,10 @@ function App() {
                 <VerticalTimeline>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     date="2015 - 2019"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: 'rgb(118, 89, 141)', color: '#b8ccddb8ccdd' }}
                     icon={<FontAwesomeIcon icon={faArrowsLeftRight} />}
                   >
                     <h2 className="vertical-timeline-element-title">Computer Science</h2>
@@ -121,10 +121,10 @@ function App() {
 
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     date="2022-2 - 2022-6"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
                     icon={<FontAwesomeIcon icon={faArrowsLeftRight} />}
                   >
                     <h2 className="vertical-timeline-element-title">Software Engineer</h2>
@@ -139,10 +139,10 @@ function App() {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               date="2018 - 2019"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
               icon={<FontAwesomeIcon icon={faArrowsLeftRight} />}
             >
               <h2 className="vertical-timeline-element-title">Sales Associate</h2>
@@ -155,10 +155,10 @@ function App() {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              contentStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               date="2020 - 2022"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: 'rgb(118, 89, 141)', color: '#fff' }}
               icon={<FontAwesomeIcon icon={faArrowsLeftRight} />}
             >
               <h2 className="vertical-timeline-element-title">Customer Service Representative</h2>
