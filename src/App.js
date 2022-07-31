@@ -21,11 +21,14 @@ import emailjs from '@emailjs/browser';
 function App() {
   const form = useRef();
   const [isWork,setIsWork]=useState(false);
+  const [open,setOpen]=useState(false);
   function timeLineChange(){
     setIsWork(!isWork);
   }
 
-
+  function openMenu(){
+    setOpen(!open);
+  }
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -45,11 +48,14 @@ function App() {
       <div className='logo'><img src={logo}/></div>
       <div className='spline-container'id='home'>
         <div className='menu'>
-            <FontAwesomeIcon icon={faBars}/>
-            <a href="#home" className='menu-text'>Home</a>
-            <a href="#about" className='menu-text'>About</a>
-            <a href="#project" className='menu-text'>Projects</a>
-            <a href="#contact" className='menu-text'>Contact</a>
+             <div className='menu-bar'> <FontAwesomeIcon icon={faBars} onClick={openMenu} /> </div>
+            {open? <div className='nv'>
+              <a href="#home" className='menu-text'>Home</a>
+              <a href="#about" className='menu-text'>About</a>
+              <a href="#project" className='menu-text'>Projects</a>
+              <a href="#contact" className='menu-text'>Contact</a>
+            </div>
+            : null}
         </div>
           <div className='nav-bar'>
               <a href="#home" className='nav-text'>Home</a>
